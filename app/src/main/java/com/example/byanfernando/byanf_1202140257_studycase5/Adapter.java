@@ -64,7 +64,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.holder> {
         notifyItemRemoved(i);
         notifyItemRangeChanged(i, list.size());
     }
-
+//mmmnm
     class holder extends RecyclerView.ViewHolder{
         //deklarasi variable yang akan digunakan
         public TextView ToDo, Description, Priority;
